@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>jq</title>
+        <script src="jq.js"></script>
+    </head>
+    <body>
+        <h1>jqrey</h1>
+        <button id="b1">hide</button>
+        <button id="b2">SHOW</button>
+        <button id="b3">SHOW/HIDE</button>
+        <br>
+        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" id="p1">
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#b1").click(function(){
+                    $("#p1").hide()
+                })
+                $("#b2").click(function(){
+                    $("#p1").show()
+                })
+                $("#b3").click(function(){
+                    $("#p1").toggle()
+                })
+            })
+        </script>
+    </body>
+</html>

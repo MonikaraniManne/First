@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>jq</title>
+        <script src="jq.js"></script>
+    </head>
+    <body>
+        <h1>jqrey</h1>
+        <button id="b1">fadein</button>
+        <button id="b2">fadeout</button>
+        <button id="b3">fadetoggle</button>
+        <button id="b4">fadeout</button>
+        <br>
+        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" id="p1">
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#b1").click(function(){
+                    $("#p1").fadeIn(2000)
+                })
+                $("#b2").click(function(){
+                    $("#p1").fadeOut(2000)
+                })
+                $("#b3").click(function(){
+                    $("#p1").fadeToggle(2000)
+                })
+                $("#b4").click(function(){
+                    $("#p1").fadeTo("slow",0.1)
+                })
+            })
+        </script>
+    </body>
+</html>

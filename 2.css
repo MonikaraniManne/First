@@ -1,0 +1,41 @@
+<html>
+    <head>NEW
+        <style>
+            body {background-color: maroon;}
+            p {
+                color:cyan;
+                font-family:verdana;
+                font-size:300%;
+            }
+
+        </style>
+    </head>
+    <title>Page</title>
+    <body>
+        <b>HI</b>
+        <mark>HI</mark>
+        <strong>HI</strong>
+        <p>The conversation isnt yet fluent enough that youd like to go on a second date, but there’s 
+additional context that you didnt have before! When you train your chatbot with more data, 
+itll get better at responding to user inputs</p>
+<p style="color:darkgoldenrod;">The conversation isnt yet fluent enough that youd like to go on a second date, but there’s 
+additional context that you didnt have before! When you train your chatbot with more data, 
+itll get better at responding to user inputs</p>
+<p style="text-size:300%;">The conversation isnt yet fluent enough that youd like to go on a second date, but there’s 
+additional context that you didnt have before! When you train your chatbot with more data, 
+itll get better at responding to
+ user inputs</p>
+ <em>The conversation isnt yet fluent enough that youd like to go on a second date, but there’s 
+    additional context that you didnt have before! When you train your chatbot with more data, 
+    itll get better at responding to</em>
+    <p>The conversation isnt yet <sub>fluent enough that youd like to go on a second date, but there’s 
+        additional context that you didnt</sub> have before! When you train your chatbot with more data, 
+        itll get better at responding to</p>
+    <p style="background-color:blueviolet">The conversation isnt yet fluent enough that youd like to go on a second date, but there’s 
+        additional context <sup>that you didnt have before! When you train your chatbot with more data, 
+        itll get better</sup> at responding to</p>
+    <p>The conversation isnt yet <del>fluent enough that youd like to go on a second date, but there’s 
+        additional context that you didnt </del> have before! When you train your chatbot with more data, 
+        itll get better at responding to</p>
+    </body>
+</html>

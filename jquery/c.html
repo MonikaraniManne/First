@@ -1,0 +1,60 @@
+WELECOME TO JQUREY.....BASIC
+<html>
+<head>
+<title> Pixxel Arts, Ameerpet </title>
+<script src="jq.js"> </script>
+<style>
+#q1, #q2, #q3 {
+width:300px;
+padding:20px 10px;
+background-color:lightgreen;
+margin-bottom:3px;
+color:white;
+text-align:justify;
+font-family:arial;
+cursor:pointer;
+}
+#a1,#a2,#a3{
+width:300px;
+height:350px;
+padding:20px 10px;
+background-color:yellow;
+text-align:center;
+font-family:arial;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#a1,#a2,#a3").hide()
+$("#q1").click(function(){
+$("#a1").slideToggle(1000)
+})
+$("#q2").click(function(){
+$("#a2").slideToggle(1000)
+})
+$("#q3").click(function(){
+$("#a3").slideToggle(1000)
+})
+})
+</script>
+<h1> Jquery </h1>
+<div id="q1"> HTML</div>
+<div id="a1">
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or at your option any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
+</div>
+<div id="q2"> CSS</div>
+<div id="a2">
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or at your option any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
+</div>
+<div id="q3"> javascript</div>
+<div id="a3">
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or at your option any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
+</div>
+
+</body>
+</html>

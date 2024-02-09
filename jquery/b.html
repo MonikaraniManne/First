@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>jq</title>
+        <script src="jq.js"></script>
+    </head>
+    <body>
+        <h1>jqrey</h1>
+        <button id="b1">slideup</button>
+        <button id="b2">Slidedown</button>
+        <button id="b3">Slidetoggle </button>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam consequatur delectus dolore sit quo, sed, facere molestiae, repellat earum ullam. Rerum, dolorum earum? Fugit ullam dolore corporis inventore officiis.</p>
+        <br>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#b1").click(function(){
+                    $("#para").slideUp()
+                })
+                $("#b2").click(function(){
+                    $("#para").slideDown()
+                })
+                $("#b3").click(function(){
+                    $("#para").slideToggle()
+                })
+            })
+        </script>
+    </body>
+</html>
